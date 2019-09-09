@@ -14,5 +14,5 @@ def reduce(array, start = 0)
       return false
     end
   end
-  return true
+  return yield
 end 
