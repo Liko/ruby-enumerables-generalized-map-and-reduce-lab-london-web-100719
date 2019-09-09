@@ -12,7 +12,7 @@ def reduce(array, start = 0)
   array.length.times do |i|
     if (start)
       start += array[i]
-    elsif array[i]
+    elsif !array[i]
       return true
     end
   end
