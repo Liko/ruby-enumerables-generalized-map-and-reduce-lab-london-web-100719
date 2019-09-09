@@ -12,17 +12,15 @@ end
 
 def reduce(array, start = nil)
   
-  i = 0
-  
   if start
     new_value = start 
-
+    i = 0 
   else
     new_value = array[0]
-
+    i = 1 
   end 
   
-  while i <= array.length
+  while i < array.length
     new_value = yield(new_value, array[i])
     i += 1
   end 
