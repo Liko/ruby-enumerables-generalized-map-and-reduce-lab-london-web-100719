@@ -3,6 +3,7 @@ def map(array)
   base = array.length.times do |i|
     yield (base)
   end
+  return array
 end 
 
 
