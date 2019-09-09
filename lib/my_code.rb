@@ -9,6 +9,8 @@ end
 
 def reduce(array, start = 0)
   
+  new_value
+  
   array.length.times do |i|
     start += yield array[i]
   end
