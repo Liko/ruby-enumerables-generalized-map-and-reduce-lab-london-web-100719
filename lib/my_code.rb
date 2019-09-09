@@ -11,7 +11,7 @@ def reduce(array, start = 0)
   
   array.length.times do |i|
     if (!array[i])
-      return false
+      return yield
     end
   end
   return yield
