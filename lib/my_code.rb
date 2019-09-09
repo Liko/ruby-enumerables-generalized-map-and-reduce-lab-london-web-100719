@@ -14,6 +14,7 @@ def reduce(array, start = 0)
       start += array[i]
     elsif array[i]
       return true
+    end
   end
   return start
 end 
