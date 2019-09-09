@@ -1,7 +1,6 @@
 # Your Code Here
 def map(array)
-  yield(n)
-  return array
+  base = 
 end 
 
 def reduce(array, start=0)
