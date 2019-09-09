@@ -1,6 +1,6 @@
 # Your Code Here
 def map(array)
-  newArray = []
+  new_array = []
   for element in array
     new_array.push yield element
   end
