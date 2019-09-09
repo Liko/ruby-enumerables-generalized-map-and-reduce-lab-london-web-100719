@@ -2,8 +2,8 @@
 def map(array)
   newArray = []
   
-    newArray.push(array[i]*2)
-  end
+  newArray.push(array[i]*2)
+
   newArray
 end 
 
