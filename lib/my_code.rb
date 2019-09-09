@@ -1,9 +1,9 @@
 # Your Code Here
 def map(array)
   newArray = []
-  base = array
-  newArray.push(yield(n))
-  newArray
+  for element in array
+    new_array.push yield element
+  end
 end 
 
 def reduce(array, start = 0)
