@@ -12,6 +12,7 @@ def reduce(array, start = 0)
   array.length.times do |i|
     if (start)
       start += array[i]
+      return start
     elsif array[i]
       return true
     end
