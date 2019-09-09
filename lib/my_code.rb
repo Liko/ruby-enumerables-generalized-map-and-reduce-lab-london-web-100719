@@ -1,5 +1,5 @@
 # Your Code Here
-def map(array, n)
+def map(array)
   newArray = []
   base = array
   newArray.push(yield(n))
