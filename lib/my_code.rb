@@ -12,7 +12,7 @@ def reduce(array, start = 0)
   new_value = start
   
   array.length.times do |i|
-    new_value yield array[i]
+    new_value yield start
   end
   new_value
 end 
