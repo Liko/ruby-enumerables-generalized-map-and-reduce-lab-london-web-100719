@@ -7,7 +7,7 @@ def map(array)
   newArray
 end 
 
-def reduce(array)
+def reduce(array, start = 0)
   
   array.length.times do |i|
     if (!array[i])
