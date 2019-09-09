@@ -14,6 +14,5 @@ def reduce(array, start = 0)
   array.length.times do |i|
     new_value yield array[i]
   end
-  
   new_value
 end 
