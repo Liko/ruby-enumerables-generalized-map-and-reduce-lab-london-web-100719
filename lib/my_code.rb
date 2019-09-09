@@ -2,8 +2,7 @@
 def map(array)
   newArray = []
   base = array
-  newArray.push(yield)
-
+  newArray.push(yield(n))
   newArray
 end 
 
