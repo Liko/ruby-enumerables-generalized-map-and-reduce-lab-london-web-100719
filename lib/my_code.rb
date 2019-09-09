@@ -14,10 +14,8 @@ def reduce(array, start = nil)
   
   if start
     new_value = start 
-    i = 0 
   else
     new_value = array[0]
-    i = 1 
   end 
   
   array.length.times do |i|
