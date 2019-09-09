@@ -14,16 +14,13 @@ def reduce(array, start = nil)
   
   if start
     new_value = start 
-    i = 0 
   else
-    new_value = array[0]
-    i = 1 
+    new_value = 
   end 
   
-  while i < array.length
+  array.length.times do |i|
     new_value = yield(new_value, array[i])
-    i += 1
-  end 
+  end
   
   new_value
 end 
