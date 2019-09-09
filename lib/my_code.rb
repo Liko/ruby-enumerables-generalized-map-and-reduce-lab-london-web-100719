@@ -5,7 +5,5 @@ end
 
 
 def reduce(array)
-  array.length.times do |i|
-    yield array[i]
-  end 
+  yield(array)
 end 
