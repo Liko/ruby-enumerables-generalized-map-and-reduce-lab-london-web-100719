@@ -2,7 +2,7 @@
 def map(array)
   new_array = []
   array.length.times do |i|
-    new_array.push yield element
+    new_array.push yield |i|
   end
 end 
 
