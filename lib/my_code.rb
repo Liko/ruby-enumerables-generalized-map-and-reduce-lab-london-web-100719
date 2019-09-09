@@ -1,11 +1,12 @@
 # Your Code Here
 def map(array)
-  newArray = []
+ newArray = []
   array.length.times do |i|
-    yield(code)
+    newArray.push(yield())
   end
-  
+  newArray
 end 
+
 
 
 
