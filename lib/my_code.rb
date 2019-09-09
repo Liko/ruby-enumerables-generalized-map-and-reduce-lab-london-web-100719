@@ -20,10 +20,9 @@ def reduce(array, start = nil)
     i = 1 
   end 
   
-  while i < array.length
-    new_value = yield(new_value, array[i])
-    i += 1
-  end 
+  array.length.times do |i|
+    new_vlue = (new_value, yield array[i]
+  end
   
   new_value
 end 
