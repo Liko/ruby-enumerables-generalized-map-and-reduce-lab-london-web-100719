@@ -7,7 +7,12 @@ def map(array)
   newArray
 end 
 
-def reduce(array, start=0)
-  yield(array)
-  return array
+def reduce_to_all_true(array)
+  
+  array.length.times do |i|
+    if (!array[i])
+      return false
+    end
+  end
+  return true
 end 
