@@ -26,4 +26,4 @@ def reduce(array, start = nil)
   end 
   
   new_value
-end 
+end
