@@ -19,7 +19,7 @@ def reduce(array, start = nil)
   end 
   
   array.length.times do |i|
-    new_vlue = yield(new_value, array[i])
+    new_value = yield(new_value, array[i])
   end
   
   new_value
