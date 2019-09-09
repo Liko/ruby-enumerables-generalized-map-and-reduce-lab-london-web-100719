@@ -14,9 +14,7 @@ def reduce(array, start = nil)
   
   if start
     new_value = start 
-  else
-    new_value = array[0]
-  end 
+
   
   array.length.times do |i|
     new_value = yield(new_value, array[i])
