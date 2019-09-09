@@ -7,7 +7,7 @@ def map(array)
   newArray
 end 
 
-def reduce_to_all_true(array)
+def reduce(array)
   
   array.length.times do |i|
     if (!array[i])
