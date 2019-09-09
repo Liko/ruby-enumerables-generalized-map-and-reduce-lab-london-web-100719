@@ -5,7 +5,6 @@ def map(array)
   end
 end 
 
-#map(array) { |n| n * -1}
 
 def reduce(array)
   array.length.times do |i|
