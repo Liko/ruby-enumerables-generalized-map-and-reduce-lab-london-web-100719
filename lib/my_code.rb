@@ -14,5 +14,5 @@ def reduce(array, start = 0)
       return yield array[i]
     end
   end
-  return yield array[i]
+  return yield start
 end 
