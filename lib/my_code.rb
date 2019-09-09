@@ -7,3 +7,5 @@ end
 def reduce(array)
   yield(array)
 end 
+
+map([1,2,3,4])
