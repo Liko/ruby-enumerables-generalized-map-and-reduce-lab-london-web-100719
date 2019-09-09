@@ -15,5 +15,5 @@ def reduce(array, start = 0)
     start += new_value
   end
   
-  start
+  new_value
 end 
