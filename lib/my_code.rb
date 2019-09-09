@@ -1,7 +1,7 @@
 # Your Code Here
 def map(array)
  newArray = []
-  array.length.times do |i|
+  array.length.times 
     newArray.push(yield(n))
   end
   newArray
