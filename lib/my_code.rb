@@ -1,7 +1,7 @@
 # Your Code Here
 def map(array, thing)
-  array.length.times do |i|
-    yield (array, thing)
+  base = array.length.times do |i|
+    yield (base)
   end
 end 
 
