@@ -1,11 +1,11 @@
 # Your Code Here
-def map(array)
+def map(array, thing)
   array.length.times do |i|
-    yield array[i]
+    yield (array, thing)
   end
 end 
 
-def reduce(array)
+def reduce(array, thing)
   array.length.times do |i|
     yield array[i]
   end 
