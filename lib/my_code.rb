@@ -8,4 +8,4 @@ def reduce(array)
   yield(array)
 end 
 
-map([1,2,3,4])
+map([1,2,3,4]){|n| n}
