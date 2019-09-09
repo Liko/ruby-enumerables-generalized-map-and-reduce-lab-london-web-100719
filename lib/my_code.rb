@@ -11,7 +11,7 @@ def reduce(array, start = 0)
   
   
   array.length.times do |i|
-    start +=  yield array[i]
+    start +=  yield(array[i])
   end
   new_value
 end 
