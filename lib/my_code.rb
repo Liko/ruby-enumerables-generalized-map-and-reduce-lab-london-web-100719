@@ -1,8 +1,8 @@
 # Your Code Here
 def map(array)
   newArray = []
-  
-  newArray.push(yield(array[i]))
+  base = array
+  newArray.push(yield(array[]))
 
   newArray
 end 
