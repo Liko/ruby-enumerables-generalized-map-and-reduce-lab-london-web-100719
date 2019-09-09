@@ -2,7 +2,7 @@
 def map(array)
   newArray = []
   base = array
-  newArray.push(yield(array[]))
+  newArray.push(yield(array[base]))
 
   newArray
 end 
